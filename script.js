@@ -4,7 +4,7 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Seni kacta alimm?";
+  question.innerHTML = "Seni kaçta alimm?";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
   // this will hide the "No" button after you click "Yes"
